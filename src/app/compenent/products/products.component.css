@@ -1,0 +1,48 @@
+.card-top{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap:break-word;
+    background: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: .25rem;
+
+}
+
+.item img{
+    width: 64px;
+}
+.item{
+    margin: 0px 15px;
+    
+}
+.container{
+    display: flex;
+    gap: 10px;
+}
+.containercard {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    gap: 10px;
+}
+
+.card {
+    flex: 1 0 calc(25% - 10px); /* Set each card to take up 25% of the container width, minus the gap */
+}
+.img-reduite {
+    max-width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+    transition: o.3s ease-in-out;
+  }
+  .img-reduite :hover {
+    transition: o.3s ease-in-out;
+    transform: scale(1.1);
+  }
+  .containercard{
+    padding: 20px;
+    margin: 50px;
+  }
+  
